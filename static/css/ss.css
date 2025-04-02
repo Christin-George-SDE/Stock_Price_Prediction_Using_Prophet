@@ -1,0 +1,46 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0d0d0e, #f0d3d2);
+    background-image: url(/static/images/Niftyimg.avif);
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background: rgb(12, 7, 58);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(58, 30, 30, 0.2);
+    
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+select {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: white;
+    color: black;
+}
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #ffcc00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background: #ff9900;
+}

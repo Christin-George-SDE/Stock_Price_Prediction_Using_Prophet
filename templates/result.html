@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicted Stock Values</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/res.css">
+</head>
+<body>
+
+    <h1>Predicted Value of {{name}}</h1>
+
+    <div class="table-container">
+        <div class="table-responsive">
+            {{ table | safe }}
+        </div>
+    </div>
+
+    <!-- Footer with Disclaimer -->
+    <footer class="footer">
+        <p>
+            ⚠ <strong>Disclaimer:</strong> Predictions are for **informational purposes only** and should not be considered **financial advice**.  
+            Actual stock prices may vary. In accordance with **SEBI Act, 1992**, this is not an investment advisory service.  
+            **Use at your own risk.**  
+        </p>
+    </footer>
+
+</body>
+</html>
